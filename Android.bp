@@ -28,3 +28,13 @@ cc_prebuilt_library_shared {
 	prefer: true,
 	soc_specific: true,
 }
+
+android_app_import {
+    name: "ViPER4AndroidFX",
+
+    overrides: ["AudioFX"],
+    apk: "system/app/ViPER4AndroidFX/ViPER4AndroidFX.apk",
+    preprocessed: true,
+    presigned: true,
+
+}
